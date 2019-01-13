@@ -1666,8 +1666,6 @@ class SystemTrayIcon(QMainWindow):
 #   starting with the panel open can be useful for users who don't have plasma
 #   installed (to set keyboard shortcuts or other default window behaviours)
         start_minimized = self.settings.value('StartMinimized') or 'true'
-        if start_minimized == 'false':
-            self.show()
         if reason == 3:
             if self.inerror or self.id_ is None or self.id_ == '':
                 return
