@@ -306,7 +306,7 @@ Land: Some branches break off trees, and some small trees blow over. Constructio
 <context>
     <name>Dobson Units</name>
     <message>
-        <location filename="../meteo_qt.py" line="1062"/>
+        <location filename="../meteo_qt.py" line="1068"/>
         <source>DU</source>
         <comment>Ozone value label</comment>
         <translation>DJ</translation>
@@ -315,7 +315,7 @@ Land: Some branches break off trees, and some small trees blow over. Constructio
 <context>
     <name>Download</name>
     <message>
-        <location filename="../meteo_qt.py" line="1962"/>
+        <location filename="../meteo_qt.py" line="1968"/>
         <source>Error :
 </source>
         <translation>Chyba:</translation>
@@ -668,7 +668,7 @@ zůstaňte ve stínu.</translation>
 <context encoding="UTF-8">
     <name>Ozone value tooltip</name>
     <message encoding="UTF-8">
-        <location filename="../meteo_qt.py" line="1073"/>
+        <location filename="../meteo_qt.py" line="1079"/>
         <source>The average amount of ozone in the &lt;br/&gt; atmosphere is
                     roughly 300 Dobson Units. What scientists call the
                     Antarctic Ozone “Hole” is an area where the ozone
@@ -868,7 +868,7 @@ zůstaňte ve stínu.</translation>
 <context>
     <name>System tray notification</name>
     <message>
-        <location filename="../meteo_qt.py" line="1731"/>
+        <location filename="../meteo_qt.py" line="1737"/>
         <source>The application has to be restarted to apply the language setting</source>
         <translation>Program je třeba spustit znovu, aby se projevila změna nastavení jazyka</translation>
     </message>
@@ -911,17 +911,17 @@ zůstaňte ve stínu.</translation>
         <translation>Hledají se data o počasí...</translation>
     </message>
     <message>
-        <location filename="../meteo_qt.py" line="1313"/>
+        <location filename="../meteo_qt.py" line="1319"/>
         <source>Empty list</source>
         <translation>Prázdný seznam</translation>
     </message>
     <message>
-        <location filename="../meteo_qt.py" line="1323"/>
+        <location filename="../meteo_qt.py" line="1329"/>
         <source>Fetching weather data ...</source>
         <translation>Natahují se data o počasí...</translation>
     </message>
     <message>
-        <location filename="../meteo_qt.py" line="1334"/>
+        <location filename="../meteo_qt.py" line="1340"/>
         <source>No city configured</source>
         <translation>Není nastaveno žádné město</translation>
     </message>
@@ -936,12 +936,12 @@ zůstaňte ve stínu.</translation>
         <translation>Klepněte pravým tlačítkem myši na ikonu a pak klepněte na nastavení.</translation>
     </message>
     <message>
-        <location filename="../meteo_qt.py" line="1785"/>
+        <location filename="../meteo_qt.py" line="1791"/>
         <source>Fetching weather data...</source>
         <translation>Natahují se data o počasí...</translation>
     </message>
     <message>
-        <location filename="../meteo_qt.py" line="1793"/>
+        <location filename="../meteo_qt.py" line="1799"/>
         <source>&lt;b&gt;meteo-qt&lt;/b&gt; v{0}
             &lt;br/&gt;License: GPLv3
             &lt;br/&gt;Python {1} - Qt {2} - PyQt {3} on {4}</source>
@@ -1020,22 +1020,22 @@ zůstaňte ve stínu.</translation>
         <translation>Stav počasí</translation>
     </message>
     <message>
-        <location filename="../meteo_qt.py" line="780"/>
+        <location filename="../meteo_qt.py" line="786"/>
         <source>Min Max Temperature of the day</source>
         <translation>Nejnižší/Nejvyšší teplota dne</translation>
     </message>
     <message>
-        <location filename="../meteo_qt.py" line="1014"/>
+        <location filename="../meteo_qt.py" line="1020"/>
         <source>snow</source>
         <translation>Sníh</translation>
     </message>
     <message>
-        <location filename="../meteo_qt.py" line="1015"/>
+        <location filename="../meteo_qt.py" line="1021"/>
         <source>rain</source>
         <translation>Déšť</translation>
     </message>
     <message>
-        <location filename="../meteo_qt.py" line="1802"/>
+        <location filename="../meteo_qt.py" line="1808"/>
         <source>&lt;p&gt;Author: Dimitrios Glentadakis
             &lt;a href=&quot;mailto:dglent@free.fr&quot;&gt;dglent@free.fr&lt;/a&gt;
             &lt;p&gt;A simple application showing the weather status
