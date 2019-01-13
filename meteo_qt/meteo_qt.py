@@ -421,12 +421,6 @@ class SystemTrayIcon(QMainWindow):
         self.restoreGeometry(self.settings.value("MainWindow/Geometry",
                                                  QByteArray()))
         
-##  Option to start with the panel closed, true by defaut
-#   starting with the panel open can be useful for users who don't have plasma
-#   installed (to set keyboard shortcuts or other default window behaviours)
-        start_minimized = self.settings.value('StartMinimized') or 'true'
-        if start_minimized == 'false':
-            self.showpanel()
 
     def daylight_delta(self, s1, s2):
         FMT = '%H:%M'
@@ -1327,6 +1321,12 @@ class SystemTrayIcon(QMainWindow):
         self.interval = int(self.settings.value('Interval') or 30) * 60 * 1000
         self.timer.start(self.interval)
         self.update()
+##  Option to start with the panel closed, true by defaut
+#   starting with the panel open can be useful for users who don't have plasma
+#   installed (to set keyboard shortcuts or other default window behaviours)
+        start_minimized = self.settings.value('StartMinimized') or 'true'
+        if start_minimized == 'false':
+            self.show()
 
     def firsttime(self):
         self.temp = ''
